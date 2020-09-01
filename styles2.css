@@ -1,0 +1,49 @@
+* {
+    
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+} 
+
+.menu{
+    opacity: 0.9;
+    background-color: #529ee6;
+}
+     
+.logo {
+    width: 100px;
+    
+}
+
+.sub-logo{
+    font-size: 15px;
+}
+
+.letras-menu{
+    font-size: 20px;
+}
+
+.titulo-modulos{
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.modulos{
+   text-align: center;
+   font-family: 'Comfortaa', cursive;
+  
+}
+
+.imagenes{
+    transition: all .5s ease;
+}
+.imagenes:hover{
+    transform:scale(1.1);
+    
+}
+
+.modulos a{
+    color: black;
+}
